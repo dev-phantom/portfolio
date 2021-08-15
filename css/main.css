@@ -25,11 +25,6 @@
   color: #ff652f;
   font-weight: 700;
 }
-.home .social-icons {
-  position: initial;
-  margin-top: 2rem;
-}
-
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -279,7 +274,7 @@
 }
 
 .about footer {
-  transform: rotate(90deg) translate(-6rem, -8rem);
+  transform: rotate(90deg) translate(-3rem, -8rem);
 }
 
 .projects {
