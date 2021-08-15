@@ -279,7 +279,7 @@
 }
 
 .about footer {
-  transform: rotate(90deg) translate(-8rem, -10rem);
+  transform: rotate(90deg) translate(-6rem, -8rem);
 }
 
 .projects {
@@ -371,7 +371,7 @@
 }
 
 .projects footer {
-  transform: rotate(90deg) translate(-3rem, -5rem);
+  transform: rotate(90deg) translate(-6rem, -5rem);
 }
 
 .contact {
