@@ -274,7 +274,7 @@
 }
 
 .about footer {
-  transform: rotate(90deg) translate(-3rem, -8rem);
+  transform: rotate(90deg) translate(-3rem, -9rem);
 }
 
 .projects {
@@ -366,7 +366,7 @@
 }
 
 .projects footer {
-  transform: rotate(90deg) translate(-6rem, -5rem);
+  transform: rotate(90deg) translate(-3rem, -9rem);
 }
 
 .contact {
@@ -521,7 +521,7 @@
 }
 
 .testimonial footer {
-  transform: rotate(90deg) translate(-7rem, -8rem);
+  transform: rotate(90deg) translate(-3rem, -8rem);
 }
 
 body {
