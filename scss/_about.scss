@@ -4,13 +4,7 @@
     &__bio-image{
         height: 50vh;
         width: 100vw;
-        background:
-        linear-gradient(
-            to right,
-            rgba($text-color, 0.3),
-            rgba($primary-color, 0.9)
-        ),
-        url(../img/img1.jpg) center top;
+        background:url(../img/img2.jpg) center top;
         background-size: cover;
         display: flex;
         flex-direction: column;
