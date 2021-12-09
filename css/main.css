@@ -168,6 +168,7 @@
   height: 50vh;
   width: 100%;
   background:url(../img/img.jpg) center top;
+  background-repeat: no-repeat;
   background-size: 50%;
   display: flex;
   flex-direction: column;
