@@ -295,8 +295,9 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: url(../img/img1.jpg) center top;
-  background-size: cover;
+  background:url(../img/img.jpg) center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
