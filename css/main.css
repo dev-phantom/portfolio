@@ -177,7 +177,6 @@
 }
 
 .about__bio-image p {
-  color: ;
   font-weight: bolder;
   margin-bottom: 2rem;
 }
@@ -295,18 +294,23 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background:url(../img/img.jpg) center top;
+  background:url(../img/undraw_projections_re_1mrh.svg) center top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+
 }
 
 .projects__bio-image .text-secondry {
   font-size: 2rem;
   margin-bottom: 2rem;
+}
+.projects__bio-image p{
+  font-size: 1.5rem;
+  font-family: ubuntu;
 }
 
 .projects__items {
@@ -528,7 +532,7 @@
 
 @media screen and (min-width: 1024px) {
   .projects__items {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:1fr;
   }
   .flex {
     display: grid;

@@ -32,7 +32,7 @@
 
         }
         &__items{
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns:1fr;
 
         }
         .text-secondry{
@@ -51,7 +51,7 @@
 @include media-lg{
     .projects{
         &__items{
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr;
         }
     }
     .flex{
