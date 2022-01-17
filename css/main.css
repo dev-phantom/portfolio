@@ -165,7 +165,7 @@
 }
 
 .about__bio-image {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background:url(../img/img.jpg) center top;
   background-repeat: no-repeat;
@@ -186,6 +186,7 @@
   width: 100%;
   text-align: center;
 backdrop-filter: blur(10px);
+padding:0 1rem;
 }
 
 .about__bio .text-secondry {
@@ -471,8 +472,9 @@ backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(../img/img1.jpg) center top;
-  background-size: cover;
+  background:url(../img/img.jpg) center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .contact h2 {
