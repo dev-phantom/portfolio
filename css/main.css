@@ -183,7 +183,7 @@
 }
 
 .about__bio {
-  width: 80%;
+  width: 100%;
   text-align: center;
 backdrop-filter: blur(10px);
 }
