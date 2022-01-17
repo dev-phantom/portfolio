@@ -472,7 +472,7 @@ padding:0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:url(../img/img.jpg) center top;
+  background:url(../img/img.jpg) center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
