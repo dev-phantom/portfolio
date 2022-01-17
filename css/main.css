@@ -187,7 +187,9 @@
   width: 100%;
   text-align: center;
 backdrop-filter: blur(6px);
-padding:1.5rem 1rem;
+padding-left: 1rem;
+Padding-right:1rem;
+Padding-top:2rem;
 }
 
 .about__bio .text-secondry {
