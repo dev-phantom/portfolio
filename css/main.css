@@ -170,6 +170,7 @@
   background:url(../img/img.jpg) center top;
   background-repeat: no-repeat;
   background-size: 100%;
+backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   align-items: center;
