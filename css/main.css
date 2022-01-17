@@ -165,7 +165,7 @@
 }
 
 .about__bio-image {
-Padding:1.5rem 0;
+Padding-top:2rem;
   height: max-content;
   width: 100%;
   background:url(../img/img.jpg) center top;
@@ -467,9 +467,9 @@ padding:0 1rem;
   transform: rotate(90deg) translate(-7rem, -8rem);
 }
 .contact {
-  height: 100vh;
-  
-  overflow: hidden;
+  height: 100%;
+  padding-top: 20vh;
+  overflow: none;
   display: flex;
   flex-direction: column;
   align-items: center;
