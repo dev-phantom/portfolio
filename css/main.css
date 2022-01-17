@@ -165,7 +165,7 @@
 }
 
 .about__bio-image {
-Padding-top:2rem;
+
   height: max-content;
   width: 100%;
   background:url(../img/img.jpg) center top;
@@ -186,8 +186,8 @@ Padding-top:2rem;
 .about__bio {
   width: 100%;
   text-align: center;
-backdrop-filter: blur(10px);
-padding:0 1rem;
+backdrop-filter: blur(6px);
+padding:1.5rem 1rem;
 }
 
 .about__bio .text-secondry {
