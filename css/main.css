@@ -27,6 +27,11 @@
   color: #ff652f;
   font-weight: 700;
 }
+.home > .web{
+  color: white;
+  padding: 0 .5px;
+  font-size: 20px;
+}
 .menu-btn {
   position: absolute;
   z-index: 1;
