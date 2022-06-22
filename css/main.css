@@ -14,6 +14,7 @@
   text-align: center;
   background: url(../img/background.jpg) center top;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home__name {
@@ -411,6 +412,8 @@ Padding-top:2rem;
   align-items: center;
   background: url(../img/background1.jpg) center top;
   background-size: cover;
+  background-repeat: no-repeat;
+
   
 }
 
