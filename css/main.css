@@ -9,20 +9,29 @@
   -webkit-overflow-scrolling: hidden;
   padding-top: 25vh;
   overflow: none;
-
+  width:100%;
   align-items: center;
   text-align: center;
-  background: url(../img/img9.jpg) center top;
+  background: url(../img/background.jpg) center top;
   background-size: cover;
 }
 
 .home__name {
   font-size: 3rem;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  /* padding-bottom: 1rem;
+  margin-bottom: 1rem; */
 }
+.line-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
 
+  border: 1px solid #fff;
+  margin:1rem 0;
+  width:80%;
+}
 .home__name--last {
   color: #ff652f;
   font-weight: 700;
@@ -173,10 +182,9 @@
 
   height: max-content;
   width: 100%;
-  background:url(../img/img.jpg) center top;
+  background:url(../img/background1.jpg) center top;
   background-repeat: no-repeat;
   background-size: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,6 +192,7 @@
 }
 
 .about__bio-image p {
+  padding-top: 6rem;
   font-weight: bolder;
   margin-bottom: 2rem;
 }
@@ -198,7 +207,7 @@ Padding-top:2rem;
 }
 
 .about__bio .text-secondry {
-  padding-bottom: 1rem;
+  padding: 3rem 0 1rem 0;
 }
 
 .about .jobs {
@@ -221,11 +230,10 @@ Padding-top:2rem;
 
 .about .jobs__job h6 {
   margin: .3rem 0;
-}
-
-.about .jobs__job h6:hover {
   font-size: 1rem;
 }
+
+
 
 .about .jobs .container {
   width: 100%;
@@ -394,85 +402,6 @@ Padding-top:2rem;
 .projects footer {
   transform: rotate(90deg) translate(-7rem, -8rem);
 }
-
-.testimonial {
-  align-items: center;
-  text-align: center;
-  background: #272727;
-  padding-bottom: 2rem;
-}
-
-.testimonial__bio-image {
-  height: 30vh;
-  width: 100vw;
-  overflow: hidden;
-  background:url(../img/img1.jpg) center top;
-  background-size: cover;
-}
-
-.testimonial__bio-image .text-secondry {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  font-weight: bolder;
-}
-
-.testimonial .flex {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.testimonial .flex .box {
-  width: 60vw;
-  margin: 2rem auto 0rem auto;
-  border: 3px solid #ff652f;
-}
-
-.testimonial .flex .box img {
-  width: 60px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -1.6rem;
-  height: 60px;
-  border-radius: 3rem;
-}
-
-.testimonial .flex .box .client-name {
-  font-weight: bolder;
-  color: #ff652f;
-}
-
-.testimonial .flex .box p {
-  padding: .5rem;
-}
-
-.testimonial button {
-  margin-top: 1rem;
-  width: 5rem;
-  background: unset;
-  height: 2.5rem;
-  border: 2px solid #ff652f;
-  border-radius: 2rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ff652f;
-  margin-bottom: 1.grem;
-}
-
-.testimonial button:hover {
-  transition: all 0.5s ease-in-out;
-  background: whitesmoke;
-  color: #272727;
-}
-
-.testimonial footer {
-  transform: rotate(90deg) translate(-7rem, -8rem);
-}
 .contact {
   height: 100%;
   padding-top: 20vh;
@@ -480,6 +409,9 @@ Padding-top:2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url(../img/background1.jpg) center top;
+  background-size: cover;
+  
 }
 
 .contact h2 {
@@ -492,6 +424,7 @@ Padding-top:2rem;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
+  padding:0 2rem;
 }
 
 .contact .social-icons {
@@ -510,7 +443,6 @@ Padding-top:2rem;
     display: block;
     transform: translateY(0);
     height: 100%;
-    background: transparent;
     text-align: right;
   }
   .nav .menu-nav__item {
@@ -522,6 +454,9 @@ Padding-top:2rem;
   }
   .about__bio {
     font-size: 1.5rem;
+  }
+  .about__bio .text-secondry {
+    padding: 4rem 0 1rem 0;
   }
   .projects__bio-image {
     height: 50vh;
