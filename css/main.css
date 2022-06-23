@@ -12,9 +12,8 @@
   width:100%;
   align-items: center;
   text-align: center;
-  background: url(../img/background.jpg) center top;
+  background:url("../img/mobilebg.jpg") no-repeat fixed top center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .home__name {
@@ -410,9 +409,8 @@ Padding-top:2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(../img/background1.jpg) center top;
+  background:url("../img/background1.jpg") no-repeat fixed top center;
   background-size: cover;
-  background-repeat: no-repeat;
 
   
 }
@@ -435,7 +433,7 @@ Padding-top:2rem;
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1600px) {
 
   .home {
     height: 100%;
@@ -445,9 +443,8 @@ Padding-top:2rem;
     width:100%;
     align-items: center;
     text-align: center;
-    background: url(../img/mobilebg.jpg) center top;
+    background:url("../img/background.jpg") no-repeat fixed top center;
     background-size: cover;
-    background-repeat: no-repeat;
   }
   .menu-btn {
     visibility: hidden;
