@@ -404,7 +404,6 @@ Padding-top:2rem;
 }
 .contact {
   height: 100%;
-  padding-top: 15vh;
   overflow: none;
   display: flex;
   flex-direction: column;
@@ -416,6 +415,8 @@ Padding-top:2rem;
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  padding-top: 13vh;
+
 }
 
 .contact__list {
@@ -423,7 +424,7 @@ Padding-top:2rem;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
-  padding:0 2rem;
+  padding:1rem 2rem;
 }
 
 .contact .social-icons {
